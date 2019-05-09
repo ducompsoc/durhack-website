@@ -1,24 +1,24 @@
 #gallery {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-gap: 0.5rem;
+  grid-gap: 0.1rem;
   width: 100%;
 
-  > img {
-    width: 100%;
+  > .gallery-img > img {
     transition: 0.15s;
-    cursor: pointer;
+    width: 100%;
+    margin-bottom: -6px; // Dirty hack to remove the random 6px gap that's appearing below images
   }
 
   // When user hovers over an image, darken every image except the hovered one
   &:hover {
-    > img:not(:hover) {
+    > .gallery-img > img:not(:hover) {
       filter: brightness(0.75);
     }
   }
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 1536px) {
   #gallery {
     grid-template-columns: repeat(1, auto);
   }
