@@ -15,6 +15,11 @@
                 "name": "Durham University",
                 "image": "img/sponsors/du.svg",
                 "url" : "https://www.dur.ac.uk/computer.science/"
+            },
+            {
+                "name": "Durham Students' Union",
+                "image": "img/sponsors/dsu.png",
+                "url": "https://www.durhamsu.com"
             }
         ]
     }
