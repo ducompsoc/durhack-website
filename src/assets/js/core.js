@@ -6,28 +6,6 @@ particlesJS.load('particles-js', "/particles_parameters.json", function () {
     console.log('callback - particles.js config loaded');
 });
 
-// sort out FAQ autocomplete.
-var my_autoComplete = new autoComplete({
-    selector: '#faqInput',
-    minChars: 0,
-    source: function (term, suggest) {
-        term = term.toLowerCase();
-        var choices = Object.keys(window.faqJSONs);
-        var matches = [];
-        for (let i = 0; i < choices.length; i++)
-            if (~choices[i].toLowerCase().indexOf(term)) matches.push(choices[i]);
-        suggest(matches);
-    },
-
-    onSelect: function (e, term, item) {
-        // trigger response.
-        var key = item.getAttribute('data-val');
-        document.getElementById('faqResponse').innerHTML = window.faqJSONs[key];
-        document.getElementById('faqResponse').style.display = "block";
-    }
-});
-
-
 // var teamJSONs;
 fetch("/team")
     .then(response => response.json())
