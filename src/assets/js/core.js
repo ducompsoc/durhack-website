@@ -96,6 +96,17 @@ function processSponsors(resp) {
         }
         sponsorContainer.appendChild(baseEnt)
     }
-
-
 }
+
+window.setupFAQs = ((faqs) => {
+    const faqContainer = document.querySelector('.container .faqs');
+    for (let [question, answer] of Object.entries(faqs)) {
+        faqContainer.innerHTML += `
+            <div class="faq_contents_box highlight_box">
+                <h3 class="faq_title">${question}</h3>
+                <p>${answer}</p>
+            </div>
+        `;
+    }
+});
+

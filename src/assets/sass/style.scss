@@ -103,6 +103,16 @@ em {
     }
 }
 
+.faqs {
+    .faq_contents_box {
+        margin-bottom: 1rem;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
 @media screen and (max-width: 1030px) {
   .fp-section .hashtags .hashtag {
     display: block;

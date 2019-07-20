@@ -34,7 +34,9 @@
         var faqJSONs;
         fetch("/faq")
         .then(response => response.json())
-        .then(json => faqJSONs = json);
+        .then(faqJSON => {
+            setupFAQs(faqJSON);
+        });
     </script>
 
 </head>
@@ -198,6 +200,20 @@
             </div>
         </div>
     </div>
+
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 faqs">
+                    <h2 class="fp-header">FAQs</h2>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container coloured_container">
         <div class="fp-section">
             <div class="columns">
