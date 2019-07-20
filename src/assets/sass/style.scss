@@ -103,9 +103,32 @@ em {
     }
 }
 
-.faqs {
+.faq_contents {
+    column-width: 300px;
+    column-count: auto;
+
     .faq_contents_box {
         margin-bottom: 1rem;
+        page-break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+
+        &:nth-child(4n) {
+            background: rgba(108, 117, 104, 0.56); // Pale green
+        }
+
+        &:nth-child(4n+1) {
+            background: rgba(146, 206, 212, 0.27); // Pale blue
+        }
+
+        &:nth-child(4n+2) {
+            background: rgba(115, 26, 148, 0.21); // Pale purple
+        }
+        
+        &:nth-child(4n+3) {
+            background: rgba(174, 149, 200, 0.15); // Pale pink
+        }
+
+
 
         p {
             margin: 0;

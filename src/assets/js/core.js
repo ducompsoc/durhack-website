@@ -99,7 +99,7 @@ function processSponsors(resp) {
 }
 
 window.setupFAQs = ((faqs) => {
-    const faqContainer = document.querySelector('.container .faqs');
+    const faqContainer = document.querySelector('.faqs .faq_contents');
     for (let [question, answer] of Object.entries(faqs)) {
         faqContainer.innerHTML += `
             <div class="faq_contents_box highlight_box">
