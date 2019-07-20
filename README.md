@@ -13,6 +13,8 @@ cd src/
 npm start
 ```
 
+> Having trouble with node v12? Try using v10. [nvm](https://github.com/nvm-sh/nvm) is a great way to set this up.
+
 ## Development
 
 You can run the asset watcher (which will re-build the assets every time you change them) with:
