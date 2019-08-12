@@ -12,6 +12,11 @@
                 "url" : "https://mlh.io"
             },
             {
+                "name": "Cloudspoit",
+                "image": "img/sponsors/cloudsploit.svg",
+                "url" : "https://cloudsploit.com/"
+            },
+            {
                 "name": "Durham University",
                 "image": "img/sponsors/du.svg",
                 "url" : "https://www.dur.ac.uk/computer.science/"
