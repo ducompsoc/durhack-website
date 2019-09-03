@@ -12,6 +12,11 @@
                 "url" : "https://mlh.io"
             },
             {
+                "name": "The Keyboard Company",
+                "image": "img/sponsors/keyboard-company.svg",
+                "url": "https://www.keyboardco.com/"
+            },
+            {
                 "name": "Cloudspoit",
                 "image": "img/sponsors/cloudsploit.svg",
                 "url" : "https://cloudsploit.com/"
