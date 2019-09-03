@@ -66,6 +66,7 @@ function processSponsors(resp) {
             var ent = document.createElement('a');
             ent.setAttribute('class', 'sponsor_class_box ' + categoryName);
             ent.setAttribute('href', sponsor.url);
+            ent.setAttribute('target', '_blank');
             var img = document.createElement('img');
             img.setAttribute('src', sponsor.image);
             img.setAttribute('alt', sponsor.name);
