@@ -57,6 +57,10 @@ app.get('/codeofconduct', (request, response) => {
   response.redirect('/dh18_code_of_conduct.pdf');
 });
 
+app.get('/sponsorshipdeck', (request, response) => {
+  response.redirect('https://drive.google.com/file/d/1-XTLcm9eFmUsyVWDA9PQOrBvniFXPFmr/view');
+});
+
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
   response.status(404).sendFile(__dirname + '/public/404.html');
