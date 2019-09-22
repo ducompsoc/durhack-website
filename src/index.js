@@ -57,14 +57,6 @@ app.get('/codeofconduct', (request, response) => {
   response.redirect('/dh18_code_of_conduct.pdf');
 });
 
-app.get('/sponsorsurvey', (request, response) => {
-  response.redirect('https://ducompsoc.typeform.com/to/wKF4ij');
-});
-
-app.get('/jointheteam', (request, response) => {
-    response.redirect('/');
-});
-
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
   response.status(404).sendFile(__dirname + '/public/404.html');
