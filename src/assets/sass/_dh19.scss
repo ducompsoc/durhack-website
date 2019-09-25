@@ -1,0 +1,47 @@
+header {
+  background-image: linear-gradient(to right, rgba(185, 185, 185, 0.64), rgba(117, 28, 158, 0.28)), url("/img/header-bg.png");
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: minmax(44vh, 300px) auto;
+  grid-column-gap: 1rem;
+
+  .splash_logo {
+    margin: 0;
+    min-height: 300px;
+    max-height: 100%;
+    height: 44vh;
+    justify-self: center;
+  }
+
+  .hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .hero-box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.06), 0 0 10px -10px rgba(0, 0, 0, 0.06);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.57);
+    font-variant: small-caps;
+    text-align: center;
+
+    h5 {
+      font-family: 'Deciso Bold';
+
+      &.headline {
+        font-size: 1.25rem;
+      }
+
+      &.headline_lower {
+        font-size: 1rem;
+      }
+    }
+  }
+}
