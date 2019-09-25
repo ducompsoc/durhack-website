@@ -35,6 +35,10 @@ fs.readFile(faqPath, function (err, data) {
 
 app.use("/", express.static(__dirname + '/public/'));
 
+app.use('/19', (request, response) => {
+  response.sendFile(`${__dirname}/public/dh19.html`);
+});
+
 // faq json
 app.get('/faq', (request, response) => {
   response.setHeader('Content-Type', 'application/json');
