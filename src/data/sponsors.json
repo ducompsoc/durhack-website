@@ -1,5 +1,12 @@
 {
     "sponsors": {
+        "silver": [
+            {
+                "name": "StarLeaf",
+                "image": "img/sponsors/starleaf.png",
+                "url": "https://www.starleaf.com/about-us/careers"
+            }
+        ],
         "partners": [
             {
                 "name": "Durham University Computing Society",
