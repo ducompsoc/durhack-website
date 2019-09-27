@@ -1,5 +1,12 @@
 {
     "sponsors": {
+        "platinum": [
+            {
+                "name": "Durham County Council",
+                "image": "img/sponsors/dcc.svg",
+                "url": "https://durham.gov.uk/"
+            }
+        ],
         "silver": [
             {
                 "name": "StarLeaf",
