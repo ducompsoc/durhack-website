@@ -61,6 +61,10 @@ app.get('/sponsorshipdeck', (request, response) => {
   response.redirect('https://drive.google.com/file/d/1-XTLcm9eFmUsyVWDA9PQOrBvniFXPFmr/view');
 });
 
+app.get('/visaletter', (request, response) => {
+  response.redirect('https://ducompsoc.typeform.com/to/Xr4WLQ');
+});
+
 app.get('/register', (request, response) => {
   response.redirect('https://ducompsoc.typeform.com/to/Zc4X5W');
 });
