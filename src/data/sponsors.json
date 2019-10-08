@@ -31,6 +31,11 @@
                 "url": "https://www.keyboardco.com/"
             },
             {
+                "name": "Sticker Mule",
+                "image": "img/sponsors/sticker-mule.svg",
+                "url": "http://hackp.ac/mlh-stickermule-hackathons"
+            },
+            {
                 "name": "Cloudspoit",
                 "image": "img/sponsors/cloudsploit.svg",
                 "url" : "https://cloudsploit.com/"
