@@ -82,5 +82,6 @@ app.listen(port, (err) => {
 
   console.log('################################################');
   console.log(`# SUCCESS: Server is now listening on port ${port}.`);
+  console.log(`# http://localhost:${port}`);
   console.log('################################################');
 });
