@@ -1,5 +1,5 @@
 ## What is DurHack 2019?
-November 2019 marks the fourth iteration of DurHack, Durham University Computing Society's flagship annual hackathon. 150 students from Durham and around the country will come together in teams of four or five for a weekend-long invention marathon to create, innovate, learn and collaborate. We'll also provide loads of freebies, prizes, workshops and entertainment!
+November 2019 marks the fourth iteration of DurHack, Durham University Computing Society's flagship annual hackathon. 150 students from Durham and around the country will come together in teams of up to five for a weekend-long invention marathon to create, innovate, learn and collaborate. We'll also provide loads of freebies, prizes, workshops and entertainment!
 ## Can I attend?
 Anybody who is over 18 and a current registered student, or who has graduated after 23rd November 2018, can attend. Your degree subject doesn't matter, all you need is a passion for learning!  
 DurHack is completely free to attend, and could not run without the generosity of our sponsors. We provide the space, WiFi, meals, snacks, and free swag. 
