@@ -28,8 +28,7 @@ Web apps, mobile apps, hardware, anything! Projects will be judged based on thei
 Everybody at DurHack 2019 will be expected to abide by the [MLH Code of Conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).  
 TL;DR: be respectful to each other.
 ## Do you offer travel reimbursements?
-We know that hackers like you might be travelling from afar. We'd love to see you at DurHack this year and welcome you to our community. Unfortunately, we can't commit to offering any travel reimbursements right now.  
-We'll let you know if this changes – [pre-register](https://ducompsoc.typeform.com/to/eXzKfq) so we can get in touch! 
+Yes! We know that hackers like you might be travelling from afar. We'd love to see you at DurHack this year and welcome you to our community. We're pleased to be able to offer up to **£50/person** in travel reimbursements! Just keep hold of your receipts and you can claim reimbursement at DurHack.
 ## What if I have other questions?
 DurHack is an MLH Member Event. You should take a look at the [MLH FAQs](https://mlh.io/faq) for more answers to your questions.
 
