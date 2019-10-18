@@ -31,6 +31,11 @@
                 "url": "https://www.keyboardco.com/"
             },
             {
+                "name": "Digital Ocean",
+                "image": "img/sponsors/digital-ocean.svg",
+                "url": "https://digitalocean.com"
+            },
+            {
                 "name": "Sticker Mule",
                 "image": "img/sponsors/sticker-mule.svg",
                 "url": "http://hackp.ac/mlh-stickermule-hackathons"
