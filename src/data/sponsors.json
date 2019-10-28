@@ -5,6 +5,10 @@
                 "name": "Durham County Council",
                 "image": "img/sponsors/dcc.svg",
                 "url": "https://durham.gov.uk/"
+            }, {
+                "name": "Atom Bank",
+                "image": "img/sponsors/atom-bank.png",
+                "url": "https://www.atombank.co.uk/careers"
             }
         ],
         "silver": [
