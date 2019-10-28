@@ -69,6 +69,10 @@ app.get('/register', (request, response) => {
   response.redirect('https://ducompsoc.typeform.com/to/Zc4X5W');
 });
 
+app.get('/volunteer', (request, response) => {
+  response.redirect('https://ducompsoc.typeform.com/to/eGEoHr');
+});
+
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
   response.status(404).sendFile(__dirname + '/public/404.html');
