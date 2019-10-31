@@ -11,6 +11,13 @@
                 "url": "https://www.atombank.co.uk/careers"
             }
         ],
+        "gold": [
+            {
+                "name": "Waterstons",
+                "image": "img/sponsors/waterstons.svg",
+                "url": "https://www.waterstons.com/careers"
+            }
+        ],
         "silver": [
             {
                 "name": "StarLeaf",
