@@ -1,3 +1,8 @@
+# ARCHIVED: This repository is no longer active
+This repository represents an **old version** of the DurHack website.
+
+As of Tuesday 5th November 2019, the [DurHack website](https://durhack.com) now uses the [ducompsoc/durhack](https://github.com/ducompsoc/durhack) repository.
+
 # DurHack
 
 ![hello world](screenshot.png)
